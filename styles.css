@@ -1,0 +1,57 @@
+/* General Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+header {
+    background: linear-gradient(to right, #ffcc00, #ff8800);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #333;
+}
+
+.navbar .nav-link {
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    background-color: #ff8800;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Section Titles */
+h1, h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Content Section */
+section {
+    padding: 2rem 0;
+}
+
+/* Footer Style */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
